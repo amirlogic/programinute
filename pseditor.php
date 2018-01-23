@@ -2,7 +2,7 @@
 
 // Prescript Viewer Version beta 1 - Copyright 2015-2016 Amir Hachaichi		PROTECTED
 
-	define( 'INCLUDE_BASE', $_SERVER['DOCUMENT_ROOT'].'/pg/' );
+	define( 'INCLUDE_BASE', $_SERVER['DOCUMENT_ROOT'].'/' );
 
 
 	if( !isset( $_GET['id'] ) ){
