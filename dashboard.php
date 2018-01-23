@@ -2,7 +2,7 @@
 
 // USER MY PRESCRIPTS
 
-	define( 'INCLUDE_BASE', $_SERVER['DOCUMENT_ROOT'].'/pg/' );
+	define( 'INCLUDE_BASE', $_SERVER['DOCUMENT_ROOT'].'/' );
 
 require_once( INCLUDE_BASE . 'cls/database.php' );
 require_once( INCLUDE_BASE . 'cls/userps.php' );
