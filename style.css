@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin:0;
+	padding:0;
+	background-color:#FFF;
+	color:#5C5C5C;
+	min-width:1200px;
+}
+
+header
+{
+	position:relative;
+	width:100%;
+	margin:0;
+	min-height:80px;
+	background-color:#444;
+}
+
+#hdrtext
+{
+	display:inline-block;
+	vertical-align:top;
+	width:43%;
+	font-size:26px;
+	letter-spacing:2px;
+	color:#FFF;
+	padding:25px 3% 15px 4%;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#hdrlnkwrp
+{
+	display:inline-block;
+	vertical-align:bottom;
+	width:42%;
+	padding:30px 4% 15px 3%;
+	text-align:right;
+	color:#FFF;
+	font-size:13px;
+	bottom:0;
+	right:0;
+}
+
+#hdrlnkwrp a
+{
+	color:#FFFFFF;
+}
+
+.hdrlink
+{
+	margin-right:30px;
+	padding:8px 20px;
+	color:#EEEEEE;
+	letter-spacing:1px;
+}
+
+#main
+{
+	width:920px;
+	padding:40px 50px 100px 50px;
+	margin-top:0;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:300px;
+}
+
+footer
+{
+	position:relative;
+	text-align:center;
+	padding:40px;
+	font-size:14px;
+}
+
+.footxt
+{
+	color:#7D7D7D;
+	margin-right:20px;
+}
+
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div
+{
+	position:relative;
+}
+
+h1,h2,h3
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+	font-size:24px;
+	font-weight:600;
+}
+
+h2
+{
+	font-size:18px;
+	font-weight:500;
+}
+
+h3
+{
+	font-size:14px;
+}
+
+p
+{
+	line-height:160%;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+input,select
+{
+		color:#444444;
+		padding:3px;
+}
