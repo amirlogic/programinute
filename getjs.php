@@ -14,7 +14,7 @@
 #
 */
 
-	define( 'INCLUDE_BASE', $_SERVER['DOCUMENT_ROOT'].'/pg/' );
+	define( 'INCLUDE_BASE', $_SERVER['DOCUMENT_ROOT'].'/' );
 
 if( !isset( $_GET['id'] ) ){
 								header('Location: dashboard.php');	exit();
